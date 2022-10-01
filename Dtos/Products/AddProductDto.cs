@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API2.Models
+namespace API2.Dtos.Products
 {
-    public class Products
+    public class AddProductDto
     {
-        public int Id {get; set; }
-
         public string Name {get; set;} = "Ten San Pham";
 
         public int Cost {get; set;} = 100;

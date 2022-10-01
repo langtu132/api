@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API2.Models
+namespace API2.Dtos.Products
 {
-    public class Products
+    public class GetProductDto
     {
         public int Id {get; set; }
 
